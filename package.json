@@ -1,0 +1,24 @@
+{
+  "name": "mockserver",
+  "version": "1.0.0",
+  "description": "Mock Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InternetRamen/mockserver.git"
+  },
+  "author": "InternetRamen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InternetRamen/mockserver/issues"
+  },
+  "homepage": "https://github.com/InternetRamen/mockserver#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1"
+  }
+}
